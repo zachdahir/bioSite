@@ -1,0 +1,96 @@
+h1 {color: #003399;
+    font-family: Georgia, times, "times new roman";
+    font-size: 3.583em;
+    float: none;
+    margin: 25px;
+    text-decoration: underline;
+    text-decoration-color: #15b3b3;}
+
+h2 {color: orange;
+    font-family: Georgia, times, "times new roman";
+    font-size: 2.488em;
+    float: none;
+    margin: 25px;
+    text-decoration: underline;
+    text-decoration-color: #003399;
+    text-decoration-line: underline;}
+
+h3 {text-align: center;}
+
+.profile {border-radius: 100%;
+          float: left;
+          padding: 10px;}
+
+.nav {font-family: Georgia, times, "times new roman";
+     font-size: 1.4em;
+     width: 100%;
+     padding: 0px;
+     margin: 0px;
+     background-color: #15b3b3;
+     list-style-type: none;
+     overflow: hidden;
+     text-align: center;
+    border-radius: 15px;}
+
+.nav li {display: inline-block;}
+
+.nav li a {display: block;
+      padding: 10px;
+      background-color:#15b3b3;
+      text-decoration: none;}
+
+li a:hover {background-color:#e8bc38;}
+
+p {background-color: #15b3b3;
+   overflow: auto;
+    padding: 20px;
+    font-size: 1.4em;
+    background-size: 100%;
+    border-radius: 15px;
+    text-indent: 50px;}
+
+* {box-sizing: border-box;}
+
+.column {float: left;
+         width: 33.33%;
+         padding: 5px;
+        position: relative;}
+
+.column:hover .overlay {
+        height: 100%;}
+
+.row {content: "";
+      clear: both;
+    display: table;}
+
+body {background-color: #b3d9ff;}
+
+.picu {padding: 10px;}
+
+img {border-radius: 5%;}
+
+.overlay {position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-color: #b3d9ff;
+          opacity: .8;
+          overflow: hidden;
+          height: 0;
+          transition: .5s ease;}
+
+.text {white-space: nowrap; 
+      color: black;
+      font-size: 20px;
+      position: absolute;
+      overflow: hidden;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);}
+
+footer {background-color: #15b3b3;
+        text-align: center;
+        font-family: Georgia, times, "times new roman";
+        background-size: 100%;
+        border-radius: 15px;}
