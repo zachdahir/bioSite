@@ -30,7 +30,7 @@ h3 {text-align: center;}
      list-style-type: none;
      overflow: hidden;
      text-align: center;
-    border-radius: 15px;}
+     border-radius: 15px;}
 
 .nav li {display: inline-block;}
 
@@ -43,25 +43,25 @@ li a:hover {background-color:#e8bc38;}
 
 p {background-color: #15b3b3;
    overflow: auto;
-    padding: 20px;
-    font-size: 1.4em;
-    background-size: 100%;
-    border-radius: 15px;
-    text-indent: 50px;}
+   padding: 20px;
+   font-size: 1.4em;
+   background-size: 100%;
+   border-radius: 15px;
+   text-indent: 50px;}
 
 * {box-sizing: border-box;}
 
 .column {float: left;
          width: 33.33%;
          padding: 5px;
-        position: relative;}
+         position: relative;}
 
 .column:hover .overlay {
         height: 100%;}
 
 .row {content: "";
       clear: both;
-    display: table;}
+      display: table;}
 
 body {background-color: #b3d9ff;}
 
@@ -87,10 +87,12 @@ img {border-radius: 5%;}
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);}
+      -ms-transform: translate(-50%, -50%);}
 
 footer {background-color: #15b3b3;
         text-align: center;
         font-family: Georgia, times, "times new roman";
         background-size: 100%;
         border-radius: 15px;}
+
+.about {margin-top: 170px;}
