@@ -1,18 +1,18 @@
-h1 {color: #003399;
+h1 {color: #45a29e;
     font-family: Georgia, times, "times new roman";
     font-size: 3.583em;
     float: none;
     margin: 25px;
     text-decoration: underline;
-    text-decoration-color: #15b3b3;}
+    text-decoration-color: aliceblue;}
 
-h2 {color: orange;
+h2 {color:#66fcf1;
     font-family: Georgia, times, "times new roman";
     font-size: 2.488em;
     float: none;
     margin: 25px;
     text-decoration: underline;
-    text-decoration-color: #003399;
+    text-decoration-color: aliceblue;
     text-decoration-line: underline;}
 
 h3 {text-align: center;}
@@ -26,27 +26,33 @@ h3 {text-align: center;}
      width: 100%;
      padding: 0px;
      margin: 0px;
-     background-color: #15b3b3;
      list-style-type: none;
      overflow: hidden;
      text-align: center;
-     border-radius: 15px;}
+     background-color: #0b0c10;
+     color: aliceblue;
+     position: fixed;
+     z-index: 1;
+     top: 0;}
 
-.nav li {display: inline-block;}
+li {display: inline-block;}
 
-.nav li a {display: block;
+li a {display: block;
       padding: 10px;
-      background-color:#15b3b3;
-      text-decoration: none;}
+      background-color: #0b0c10;
+      text-decoration: none;
+      color: #c5c6c7;}
 
-li a:hover {background-color:#e8bc38;}
+li a:hover {background-color:#45a29e;}
 
-p {background-color: #15b3b3;
+li a:visited {color: #c5c6c7;} 
+
+p {background-color: #c5c6c7;
+   box-shadow: 5px 5px #4a5059;
    overflow: auto;
    padding: 20px;
    font-size: 1.4em;
    background-size: 100%;
-   border-radius: 15px;
    text-indent: 50px;}
 
 * {box-sizing: border-box;}
@@ -61,19 +67,19 @@ p {background-color: #15b3b3;
 
 .row {content: "";
       clear: both;
-      display: table;}
+      display: table;
+      background-color: #0b0c10;}
 
-body {background-color: #b3d9ff;}
+body {background-color: #1f2833;
+      margin: 0px;}
 
 .picu {padding: 10px;}
-
-img {border-radius: 5%;}
 
 .overlay {position: absolute;
           bottom: 0;
           left: 0;
           right: 0;
-          background-color: #b3d9ff;
+          background-color: aliceblue;
           opacity: .8;
           overflow: hidden;
           height: 0;
@@ -87,15 +93,26 @@ img {border-radius: 5%;}
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);}
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;}
 
-footer {background-color: #15b3b3;
+footer {background-color: #0b0c10;
         text-align: center;
         font-family: Georgia, times, "times new roman";
-        background-size: 100%;
-        border-radius: 15px;}
+        color: aliceblue;
+        font-size: 1.4em;
+        padding: 0px;
+        margin: 0px;     
+        list-style-type: none;
+        overflow: hidden;}
 
-.about {margin-top: 170px;}
+.back {text-align: center;
+       margin: 0px;
+       padding: 0px;
+       color: aliceblue;
+       background-color: #0b0c10;}
 
-.container {margin-left: 300px;
-            margin-right: 300px;}
+.about {margin-top: 125px;}
+
+.container {margin-left: 15%;
+            margin-right: 15%;}
