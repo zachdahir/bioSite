@@ -1,19 +1,21 @@
-h1 {color: #45a29e;
+h1 {color: #66fcf1;
     font-family: Georgia, times, "times new roman";
     font-size: 3.583em;
     float: none;
     margin: 25px;
     text-decoration: underline;
-    text-decoration-color: aliceblue;}
+    text-decoration-color: aliceblue;
+    text-shadow: 1px 1px black;}
 
-h2 {color:#66fcf1;
+h2 {color:#45a29e;
     font-family: Georgia, times, "times new roman";
     font-size: 2.488em;
     float: none;
     margin: 25px;
     text-decoration: underline;
     text-decoration-color: aliceblue;
-    text-decoration-line: underline;}
+    text-decoration-line: underline;
+    text-shadow: 1px 1px black;}
 
 h3 {text-align: center;}
 
@@ -47,13 +49,14 @@ li a:hover {background-color:#45a29e;}
 
 li a:visited {color: #c5c6c7;} 
 
-p {background-color: #c5c6c7;
-   box-shadow: 5px 5px #4a5059;
-   overflow: auto;
-   padding: 20px;
-   font-size: 1.4em;
-   background-size: 100%;
-   text-indent: 50px;}
+p {padding: 5px 20px 0px 20px;
+   font-size: 1.4em;}
+
+.pBox {text-indent: 50px;
+       background-size: 100%;
+       background-color: #c5c6c7;
+       box-shadow: 15px 15px #4a5059;
+        overflow: auto;}
 
 * {box-sizing: border-box;}
 
@@ -68,9 +71,11 @@ p {background-color: #c5c6c7;
 .row {content: "";
       clear: both;
       display: table;
-      background-color: #0b0c10;}
+      background-color: #0b0c10;
+      margin-top: 50px;}
 
 body {background-color: #1f2833;
+      background-image: linear-gradient(45deg, rgba(0,0,0,0), rgba(0,0,0,.35));
       margin: 0px;}
 
 .picu {padding: 10px;}
@@ -102,7 +107,7 @@ footer {background-color: #0b0c10;
         color: aliceblue;
         font-size: 1.4em;
         padding: 0px;
-        margin: 0px;     
+        margin-top: 50px;     
         list-style-type: none;
         overflow: hidden;}
 
@@ -115,4 +120,4 @@ footer {background-color: #0b0c10;
 .about {margin-top: 125px;}
 
 .container {margin-left: 15%;
-            margin-right: 15%;}
+            margin-right: 15%;} 
